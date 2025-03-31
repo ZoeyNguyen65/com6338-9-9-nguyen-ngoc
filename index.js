@@ -4,7 +4,7 @@ const weatherSection = document.querySelector('#weather');
 const inputField = document.querySelector('input[name="search"]');
 
 
-form.addEventListener('submit', async (event) => {//3RD BULLET: Converting a function declaration into an arrow function//
+form.addEventListener('submit', (event) => {//3RD BULLET: Converting a function declaration into an arrow function//
     event.preventDefault();
     
     const location = inputField.value;
